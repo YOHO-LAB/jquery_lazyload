@@ -8,6 +8,12 @@
     "type": "git",
     "url": "git@github.com:tuupola/jquery_lazyload.git"
   },
+  "spm": {
+    "main": "jquery.lazyload.js",
+    "dependencies": {
+       "jquery": "1.7.2"
+     }
+  },
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "scripts": {
     "test": "grunt test"
